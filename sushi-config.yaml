@@ -1,0 +1,74 @@
+id: aphp.fhir.fr.astacus
+canonical: https://aphp.fr/fhir/fr/astacus
+name: Astacus
+title: Implementation Guide for Astacus project
+description: An Implementation Guide for Astacus project
+status: draft
+version: 0.0.1
+jurisdiction: urn:iso:std:iso:3166#FR "France"
+fhirVersion: 4.0.1
+copyrightYear: 2023+
+releaseLabel: ci-build
+publisher:
+  name: APHP
+  url: https://aphp.fr
+
+dependencies:
+  hl7.fhir.fr.core: 1.1.0
+  hl7.fhir.uv.cpg: current
+  hl7.fhir.us.mcode: current
+parameters:
+  show-inherited-invariants: false
+  version-comparison: n/a
+  path-binary: input/attachments
+
+pages:
+   index.md:
+     title: Le projet Astacus
+   group-patient.md:
+     title: Patient Information
+   conformance-general.md:
+     title: Conformance Expectations
+   conformance-patients.md:
+     title: Identifying In-Scope Patients
+   conformance-profiles.md:
+     title: Profile Conformance
+   usecase1.md:
+     title: HER2 scoring
+   profiles.md:
+     title: Profiles
+   extensions.md:
+     title: Extensions
+   valuesets.md:
+     title: Value Sets
+   codesystems.md:
+     title: Code Systems
+   capabilitystatements.md:
+     title: Capability Statements
+   change_log.md:
+     title: Release notes
+   glossary.md:
+     title: Glossary
+   downloads.md:
+     title: Download Specification
+
+menu:
+  Home: index.html
+  Content by Group:
+    Patient: group-patient.html
+  Conformance:
+    General Expectations: conformance-general.html
+    Identifying Astacus Patients: conformance-patients.html
+    Profile Conformance: conformance-profiles.html
+  Use Cases:
+    Use Case 1: usecase1.html
+  FHIR Artifacts:
+    Profiles: profiles.html
+    Extensions: extensions.html
+    Value Sets: valuesets.html
+    Code Systems: codesystems.html
+    Capability Statements: capabilitystatements.html
+    Complete Listing: artifacts.html
+  Release Notes: change_log.html
+  More:
+    Download Specification: downloads.html

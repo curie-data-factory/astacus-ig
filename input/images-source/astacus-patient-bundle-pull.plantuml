@@ -1,0 +1,10 @@
+@startuml
+skinparam defaultFontName Arial
+
+title Retrieving an Astacus Patient Bundle
+hide footbox
+participant "Astacus Data Receiver" as Receiver
+participant "Astacus Data Sender" as Sender
+"Receiver" -> "Sender" : ""GET [base]/Patient/[id]/$astacus-everything""
+"Sender" --> "Receiver" : HTTP response containing Astacus Patient Bundle
+@enduml

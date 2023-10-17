@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.gradle
+/gradle
+gradlew
+gradlew.bat
+Thumbs.db
+/fsh-generated
+/_input-cache
+input-cache
+/output
+/temp
+/template
+/build
+/node_modules
+package.json
+package-lock.json

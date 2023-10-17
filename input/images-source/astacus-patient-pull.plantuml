@@ -1,0 +1,14 @@
+@startuml
+skinparam defaultFontName Arial
+
+title Retrieving an Astacus Patient
+hide footbox
+participant "Astacus Data Receiver" as Receiver
+participant "Astacus Data Sender" as Sender
+
+group Get Patients
+    "Receiver" -> "Sender" : ""GET [base]/Patient/[id]""
+    "Sender" --> "Receiver" : HTTP response containing Patient resource
+end
+
+@enduml

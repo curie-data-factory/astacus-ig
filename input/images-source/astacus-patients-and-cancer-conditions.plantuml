@@ -1,0 +1,14 @@
+@startuml
+skinparam defaultFontName Arial
+
+title Identifying Astacus Patients: Patients-and-cancer-conditions approach
+hide footbox
+participant "Astacus Data Receiver" as Receiver
+participant "Astacus Data Sender" as Sender
+
+group Get Patients via reverse chaining
+    "Receiver" -> "Sender" : ""GET [base]/Condition?_has:Condition:subject:code:in=...""
+    "Sender" --> "Receiver" : HTTP response containing Bundle of relevant Patients
+end
+
+@enduml
