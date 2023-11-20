@@ -19,7 +19,7 @@ Dans le cadre du projet Astacus, ce document présente un projet de portail pour
     * Noël Lucas (contact APHP suivi du projet Astacus)
     * Stéphane Bréant (gestion des grands projets)
     * Cendrine Baudoin (gestion des grands projets)
-    * Vincent Rubot
+    * Vincent Rubod (responsable technique projets)
     * Aurélien Maire (imagerie)
     * David Ouagne (interopérabilité)
     * Julien Dubiel (portail)
