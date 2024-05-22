@@ -14,7 +14,7 @@ publisher:
   url: https://aphp.fr
 
 dependencies:
-  hl7.fhir.fr.core: 1.1.0
+  hl7.fhir.fr.core: 2.0.1
   hl7.fhir.uv.cpg: current
   hl7.fhir.us.mcode: current
 parameters:

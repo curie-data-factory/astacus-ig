@@ -1,5 +1,5 @@
 Alias: $patient-nationality = http://hl7.org/fhir/StructureDefinition/patient-nationality
-Alias: $FrPatientIdentReliability = http://interopsante.org/fhir/StructureDefinition/FrPatientIdentReliability
+Alias: $FrCoreIdentityReliability = https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability
 Alias: $FrPatientDeathPlace = http://interopsante.org/fhir/StructureDefinition/FrPatientDeathPlace
 Alias: $FrPatientIdentityMethodCollection = http://interopsante.org/fhir/StructureDefinition/FrPatientIdentityMethodCollection
 Alias: $FrPatientBirthdateUpdateIndicator = http://interopsante.org/fhir/StructureDefinition/FrPatientBirthdateUpdateIndicator
@@ -14,6 +14,6 @@ Alias: $FrOrganization = http://interopsante.org/fhir/StructureDefinition/FrOrga
 Alias: $FrPractitionerRoleExercice = http://interopsante.org/fhir/StructureDefinition/FrPractitionerRoleExercice
 Alias: $FrPractionerRoleProfession = http://interopsante.org/fhir/StructureDefinition/FrPractionerRoleProfession
 
-Alias: $fr-mode-validation-identite = http://interopsante.org/fhir/CodeSystem/fr-cs-mode-validation-identite
-Alias: $fr-v2-0445 = http://interopsante.org/fhir/CodeSystem/fr-v2-0445
-Alias: $fr-v2-0203 = http://interopsante.org/CodeSystem/fr-v2-0203
+Alias: $fr-mode-validation-identite = https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-mode-validation-identity
+Alias: $fr-v2-0445 = https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445
+Alias: $fr-v2-0203 = https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203
