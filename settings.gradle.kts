@@ -1,1 +1,1 @@
-rootProject.name = "fhir-astacus-ig"
+rootProject.name = "astacus-ig"
