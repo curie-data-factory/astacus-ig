@@ -33,17 +33,17 @@ Description: "Value Set for Breast structure (body structure)."
 Instance: astacus-1288992
 InstanceOf: AstacusCancerPatient
 Usage: #example
-* extension[$FrPatientIdentReliability].extension[identityReliability].valueCoding = $fr-v2-0445#VALI "Identité validée"
-* extension[$FrPatientIdentReliability].extension[validationDate].valueDate = "2023-02-16"
-* extension[$FrPatientIdentReliability].extension[validationMode].valueCoding = $fr-mode-validation-identite#CN "Carte nationale d'identité"
+* extension[$FrCoreIdentityReliability].extension[identityStatus].valueCoding = $fr-v2-0445#VALI "Identité validée"
+* extension[$FrCoreIdentityReliability].extension[validationDate].valueDate = "2023-02-16"
+* extension[$FrCoreIdentityReliability].extension[validationMode].valueCoding = $fr-mode-validation-identite#CN "Carte nationale d'identité"
 * identifier[0].use = #usual
-* identifier[0].type = $fr-v2-0203#PI "Patient internal identifier"
-* identifier[0].system = "http://aphp.fr"
-* identifier[0].value = "123456"
+* identifier[=].type = $v2-0203#PI "Patient internal identifier"
+* identifier[=].system = "http://aphp.fr"
+* identifier[=].value = "123456"
 * active = true
 * name[0].use = #official
-* name[0].family = "Adams"
-* name[0].given[0] = "Danielle"
+* name[=].family = "Adams"
+* name[=].given[0] = "Danielle"
 * telecom.system = #email
 * telecom.value = "danielle.adams@example.com"
 * gender = #female

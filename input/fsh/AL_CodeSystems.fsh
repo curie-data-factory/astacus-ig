@@ -46,6 +46,7 @@ Alias:   RefMeaning = http://terminology.hl7.org/CodeSystem/referencerange-meani
 Alias:   AbsentReason = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias:   EndpointConnType = http://terminology.hl7.org/CodeSystem/endpoint-connection-type
 Alias:   EndpointPLType = http://terminology.hl7.org/CodeSystem/endpoint-payload-type
+Alias:   $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 
 // From DICOM
 Alias:   DCM = http://dicom.nema.org/resources/ontology/DCM
